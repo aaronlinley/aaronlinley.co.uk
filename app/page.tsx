@@ -15,21 +15,19 @@ export default async function Home() {
 
         <p className="mb-4">You can find me around the internet:</p>
 
-        <ul className="flex items-center gap-6">
+        <ul className="flex flex-col md:flex-row md:items-center gap-6">
           <li>
             <a href="https://github.com/aaronlinley" target="_blank" rel="noopener" className="flex items-center py-2 px-3 border border-slate-700 gap-2 rounded">
-              <Image src="/github.svg" width="16" height="16" alt="Github Logo" className="block" />
               <span>Github</span>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/aaron-linley-6a742984/" target="_blank" rel="noopener" className="flex items-center py-2 px-3 border border-slate-700 gap-2 rounded">
-              <Image src="/linkedin.svg" width="88" height="24" alt="LinkedIn Logo" className="block" />
+              LinkedIn
             </a>
           </li>
           <li>
             <a href="https://twitter.com/pigboypaints" target="_blank" rel="noopener" className="flex items-center py-2 px-3 border border-slate-700 gap-2 rounded">
-              <Image src="/twitter.svg" width="16" height="16" alt="Twitter Logo" className="block" />
               Twitter
             </a>
           </li>
