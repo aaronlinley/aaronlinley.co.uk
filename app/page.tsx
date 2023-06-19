@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Merriweather } from 'next/font/google';
 
 const merriweather = Merriweather({ weight: ["700"], subsets: ["latin"] })
